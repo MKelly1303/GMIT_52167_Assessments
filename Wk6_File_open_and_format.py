@@ -9,5 +9,5 @@ with open("data/iris.csv") as f:
     str3 = (line.split (',')[3])
     print('{0:>3} {1:>3} {2:>3} {3:>3}'.format(str0, str1, str2, str3))
     # I'm creating a string variable for each column and then printing them out for each line in the file.
-    #The formatting is aligning the string to the right with 3 characters which is enough for this dataset.
+    # The formatting is aligning the string to the right with 3 characters which is enough for this dataset.
     
