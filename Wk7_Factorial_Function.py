@@ -2,11 +2,15 @@
 
 n = int(input("Please enter an integer: "))
 
+# defining a function called 'factorial' which will have the integer n passed into it and called num
 def factorial(num):
   fact = num
   while num > 1:
     fact = fact*(num - 1)
     num = num -1
+    # the variable fact takes on the value of num initially. It is then multiplied by (num-1)
+    # the value is added to fact for each loop while the num is reduced by 1. When num reachs 1, the loop finishes
+    # and returns the value of fact
   return fact
 
 print(f'The factorial of {n} is: ', factorial(n))
